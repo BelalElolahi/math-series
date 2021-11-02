@@ -52,4 +52,13 @@ def test_sum_series_4():
 def test_sum_series_4():
    excepted = 27
    actual = sum_series(4,3,7)
-   assert excepted == actual        
+   assert excepted == actual  
+   
+def test_lucas_0() :
+    excepted = 2 
+    actual = lucas(0)
+    assert excepted == actual  
+def test_lucas_1() :
+    excepted = 1 
+    actual = lucas(1)
+    assert excepted == actual
